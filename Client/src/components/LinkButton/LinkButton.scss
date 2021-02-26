@@ -1,0 +1,27 @@
+.link-btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: var(--white);
+  max-width: max-content;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-2);
+  white-space: nowrap;
+  &__green {
+    padding: 1.9rem 5.7rem;
+    background-color: var(--green);
+    text-transform: capitalize;
+  }
+  &__black {
+    padding: 1.9rem 4rem;
+    background-color: var(--black);
+    text-transform: uppercase;
+    & span {
+      margin-right: 1rem;
+      font-size: 3rem;
+    }
+  }
+}

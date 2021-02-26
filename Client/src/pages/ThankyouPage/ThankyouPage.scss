@@ -1,0 +1,16 @@
+.thankyou-page {
+  width: 100%;
+  height: 100vh;
+  padding: 35rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__container {
+    max-width: 135.7rem;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

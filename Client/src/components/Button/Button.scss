@@ -1,0 +1,24 @@
+.btn {
+  height: 9.2rem;
+  max-width: 52rem;
+  width: 100%;
+  border: none;
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-2);
+  background-color: var(--green);
+  font-size: 3rem;
+  line-height: 3.7rem;
+  font-weight: 700;
+  color: var(--white);
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  white-space: nowrap;
+  & span {
+    margin-left: 1rem;
+    line-height: 0;
+    font-size: 4rem;
+  }
+}

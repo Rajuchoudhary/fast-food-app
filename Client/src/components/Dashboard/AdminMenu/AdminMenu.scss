@@ -1,0 +1,38 @@
+.admin-menu {
+  height: 100%;
+  width: 31.5rem;
+  border-radius: 1.5rem;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+  &__menu {
+    width: 90%;
+    align-self: flex-start;
+    & > *:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+    &--active {
+      background-color: rgba(0, 112, 243, 0.12);
+    }
+    & a {
+      border-top-right-radius: 5rem;
+      border-bottom-right-radius: 5rem;
+      padding: 1.4rem 0;
+      padding-left: 20%;
+      display: flex;
+      align-items: center;
+      color: var(--blue);
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 2.2rem;
+      line-height: 2.7rem;
+      font-weight: 700;
+      & span {
+        font-size: 3rem;
+        margin-right: 1.2rem;
+      }
+    }
+  }
+}

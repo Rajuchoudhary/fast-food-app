@@ -1,0 +1,22 @@
+.welcome-page {
+  width: 100%;
+  min-height: 30vh;
+  height: 100%;
+  padding: 5rem 0;
+  border-radius: 1.5rem;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & h1 {
+    text-align: center;
+    font-size: 4.6rem;
+    line-height: 7rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--black);
+    & span {
+      font-size: 3rem;
+    }
+  }
+}

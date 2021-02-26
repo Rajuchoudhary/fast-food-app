@@ -1,0 +1,42 @@
+.item-card {
+  width: 33rem;
+  height: 42.3rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('../../assets/imgae/card-bg.png');
+  background-size: cover;
+  padding: 3.6rem 2.5rem;
+  &__photo {
+    width: 80%;
+    height: 15rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 100%;
+    }
+  }
+  &__text {
+    width: 100%;
+    text-align: center;
+  }
+  &__title {
+    font-size: 2rem;
+    line-height: 4.3rem;
+    font-weight: 700;
+    color: var(--black);
+    text-transform: capitalize;
+  }
+  &__description {
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--grey-1);
+    overflow: hidden;
+  }
+}

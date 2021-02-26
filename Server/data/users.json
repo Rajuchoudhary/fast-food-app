@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "600edb45b872cb4c5890715d",
+    "isAdmin": true,
+    "name": "admin",
+    "email": "admin@admin.com",
+    "password": "111111",
+    "mobileNo": 9694331851,
+    "createdAt": "2021-01-25T14:52:53.749Z",
+    "__v": 0
+  },
+  {
+    "_id": "600fd3391d853336ccbecfbc",
+    "isAdmin": false,
+    "name": "Tina Hughes",
+    "email": "user1@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T08:30:49.945Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611650249353",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611650251/1611650249353.jpg"
+    }
+  },
+  {
+    "_id": "600fd5381d853336ccbecfbd",
+    "isAdmin": false,
+    "name": "Tiffany Morris",
+    "email": "user2@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T08:39:20.179Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611650425921",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611650427/1611650425921.jpg"
+    }
+  },
+  {
+    "_id": "600fd5991d853336ccbecfbe",
+    "isAdmin": false,
+    "name": "Donald Barnett",
+    "email": "user3@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T08:40:57.304Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611650468217",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611650471/1611650468217.jpg"
+    }
+  },
+  {
+    "_id": "600fd5ce1d853336ccbecfbf",
+    "isAdmin": false,
+    "name": "Francisco",
+    "email": "user4@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T08:41:50.751Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611650516662",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611650522/1611650516662.jpg"
+    }
+  },
+  {
+    "_id": "600fd5f21d853336ccbecfc0",
+    "isAdmin": false,
+    "name": "Gabriella Garza",
+    "email": "user5@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T08:42:26.824Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611650558105",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611650563/1611650558105.jpg"
+    }
+  },
+  {
+    "_id": "600fd6241d853336ccbecfc1",
+    "isAdmin": false,
+    "name": "Micheal Ryan",
+    "email": "user6@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T08:43:16.642Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611650601937",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611650604/1611650601937.jpg"
+    }
+  },
+  {
+    "_id": "600fd6411d853336ccbecfc2",
+    "isAdmin": false,
+    "name": "Shiv Kumar",
+    "email": "user7@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T08:43:45.673Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611650663580",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611650666/1611650663580.jpg"
+    }
+  },
+  {
+    "_id": "600fd68d1d853336ccbecfc3",
+    "isAdmin": false,
+    "name": "Krin Walters",
+    "email": "user8@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T08:45:01.141Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611650706271",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611650708/1611650706271.jpg"
+    }
+  },
+  {
+    "_id": "600fd6a81d853336ccbecfc4",
+    "isAdmin": false,
+    "name": "Sean Bowman",
+    "email": "user9@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T08:45:28.656Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611650733739",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611650736/1611650733739.jpg"
+    }
+  },
+  {
+    "_id": "600fd6e81d853336ccbecfc5",
+    "isAdmin": false,
+    "name": "Sharlene Hunter",
+    "email": "user10@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T08:46:32.438Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611728361278",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611728365/1611728361278.jpg"
+    }
+  },
+  {
+    "_id": "600fdaa31d853336ccbecfc6",
+    "isAdmin": false,
+    "name": "Bertha Russell",
+    "email": "user11@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T09:02:27.131Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611651778021",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611651780/1611651778021.jpg"
+    }
+  },
+  {
+    "_id": "600fdadb1d853336ccbecfc7",
+    "isAdmin": false,
+    "name": "Holly Herrera",
+    "email": "user12@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T09:03:23.083Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611651864128",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611651866/1611651864128.jpg"
+    }
+  },
+  {
+    "_id": "600fdb431d853336ccbecfc8",
+    "isAdmin": false,
+    "name": "Dwight Harris",
+    "email": "user13@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T09:05:07.820Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611652339090",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611652341/1611652339090.jpg"
+    }
+  },
+  {
+    "_id": "600fdd621d853336ccbecfc9",
+    "isAdmin": false,
+    "name": "Judy Stevens",
+    "email": "user14@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T09:14:10.539Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611652459099",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611652462/1611652459099.jpg"
+    }
+  },
+  {
+    "_id": "600fddf71d853336ccbecfca",
+    "isAdmin": false,
+    "name": "Delores Hopkins",
+    "email": "user15@gmail.com",
+    "password": "111111",
+    "mobileNo": 1234567890,
+    "createdAt": "2021-01-26T09:16:39.137Z",
+    "__v": 0,
+    "image": {
+      "public_id": "1611652834740",
+      "url": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611652846/1611652834740.jpg"
+    }
+  },
+  {
+    "_id": "60140501a02619372c669098",
+    "isAdmin": false,
+    "name": "test",
+    "email": "test@test.com",
+    "password": "111111",
+    "mobileNo": 1111111111,
+    "createdAt": "2021-01-29T12:52:17.752Z",
+    "__v": 0
+  },
+  {
+    "_id": "60140654a02619372c669099",
+    "isAdmin": false,
+    "name": "test2",
+    "email": "test2@test.com",
+    "password": "111111",
+    "mobileNo": 2733573661,
+    "createdAt": "2021-01-29T12:57:56.493Z",
+    "__v": 0
+  }
+]

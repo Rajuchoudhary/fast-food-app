@@ -1,0 +1,34 @@
+.menu-section {
+  width: 100%;
+  padding: 15rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__container {
+    max-width: 103rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    & > h2 {
+      text-align: center;
+      font-size: 5.6rem;
+      line-height: 8rem;
+      font-weight: 700;
+      color: var(--black);
+      text-transform: capitalize;
+      text-shadow: car(--shadow-1);
+    }
+  }
+  &__grid {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, 33rem);
+    grid-gap: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
+}

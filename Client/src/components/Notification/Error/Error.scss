@@ -1,0 +1,36 @@
+.error-msg {
+  width: 100%;
+  max-width: 72rem;
+  padding: 2rem 4rem;
+  border-radius: 1.5rem;
+  background-color: rgba(255, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  font-weight: 700;
+  color: var(--red);
+  margin: 3rem 0;
+  & span {
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+}
+.network {
+  width: 100%;
+  max-width: 72rem;
+  margin: 3rem 0;
+  padding: 2rem 4rem;
+  border-radius: 1.5rem;
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: var(--white);
+  & span {
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
+}

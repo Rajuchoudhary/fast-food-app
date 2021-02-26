@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "600fb15c506ffd1c6c93dca1",
+    "category": "sandwich",
+    "__v": 0
+  },
+  {
+    "_id": "600fb15f506ffd1c6c93dca2",
+    "category": "burger",
+    "__v": 0
+  },
+  {
+    "_id": "600fb163506ffd1c6c93dca3",
+    "category": "salad",
+    "__v": 0
+  },
+  {
+    "_id": "600fb167506ffd1c6c93dca4",
+    "category": "pizza",
+    "__v": 0
+  },
+  {
+    "_id": "600fb16c506ffd1c6c93dca5",
+    "category": "ice cream",
+    "__v": 0
+  }
+]

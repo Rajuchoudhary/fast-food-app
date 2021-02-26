@@ -1,0 +1,198 @@
+.admin-menu-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  &__header {
+    border-radius: 1.5rem;
+    width: 100%;
+    padding: 2.4rem 5.4rem;
+    background-color: var(--white);
+    margin-bottom: 3rem;
+
+    & h5 {
+      font-size: 2.6rem;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+  }
+  &__container {
+    height: 100%;
+    border-radius: 1.5rem;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0;
+  }
+  &__content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__option {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      & > *:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+  &__add {
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--green);
+    text-transform: capitalize;
+    color: var(--white);
+    font-size: 2rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    & span {
+      margin-left: 2rem;
+      font-size: 3rem;
+      line-height: 2rem;
+    }
+  }
+  &__form {
+    & div {
+      padding: 1rem 3rem;
+      background-color: var(--grey) !important;
+    }
+  }
+  &__grid {
+    width: 100%;
+    margin-top: 5rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, 29rem);
+    grid-gap: 2rem;
+    margin-top: 8rem;
+  }
+  &__pagination {
+    margin-top: 3rem;
+  }
+}
+
+.admin-item-card {
+  width: 29rem;
+  height: 38rem;
+  padding: 5rem 2rem;
+  background-image: url('../../../assets/imgae/card-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  &__content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__photo {
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 100%;
+    }
+  }
+  &__name {
+    font-size: 2rem;
+    line-height: 3.2rem;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--black);
+    margin: 3rem;
+  }
+  &__btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__edit,
+  &__delete {
+    background-color: var(--white);
+    font-size: 2rem;
+    padding: 1rem 1.6rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    line-height: 1.6rem;
+    cursor: pointer;
+  }
+  &__edit {
+    color: var(--blue);
+  }
+  &__delete {
+    color: var(--red);
+  }
+
+  &__option {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5.2rem;
+    background-image: url('../../../assets/imgae/card-bg.png');
+    background-size: cover;
+    & p {
+      text-transform: uppercase;
+      font-size: 2rem;
+      line-height: 4rem;
+      color: var(--black);
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    &__btns {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      & button {
+        padding: 1.2rem 1.6rem;
+        border: none;
+        border-radius: 0.5rem;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        color: var(--white);
+        cursor: pointer;
+      }
+    }
+
+    &__yes {
+      background-color: var(--red);
+    }
+    &__no {
+      background-color: var(--green);
+    }
+  }
+}

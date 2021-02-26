@@ -1,0 +1,1470 @@
+[
+  {
+    "_id": "600fe5591d853336ccbecfce",
+    "deliveryCost": 20,
+    "totalCost": 95,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd3391d853336ccbecfbc",
+    "items": [
+      {
+        "_id": "600fe5591d853336ccbecfcf",
+        "id": "600fb7e0889ce3579c099fe0",
+        "name": "Normal Chicken Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642847/1611642845205.jpg",
+        "price": 10,
+        "qty": 1,
+        "review": {
+          "rating": 5,
+          "comment": "this was so delicious, hot and fresh. I enjoyed it. I will order again."
+        }
+      },
+      {
+        "_id": "600fe5591d853336ccbecfd0",
+        "id": "600fb20e506ffd1c6c93dca7",
+        "name": "Cheese burger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641358/1611641356548.jpg",
+        "price": 10,
+        "qty": 1,
+        "review": {
+          "rating": 5,
+          "comment": "Vestibulum turpis ligula, venenatis in diam eu, finibus ullamcorper enim. Quisque tincidunt erat a"
+        }
+      },
+      {
+        "_id": "600fe5591d853336ccbecfd1",
+        "id": "600fca9c3de06709884d6fa1",
+        "name": "Cobb salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647644/1611647641047.jpg",
+        "price": 20,
+        "qty": 1,
+        "review": {
+          "rating": 4,
+          "comment": "ipsum non eros congue rhoncus. Quisque eget neque interdum nisi condimentum consectetur"
+        }
+      },
+      {
+        "_id": "600fe5591d853336ccbecfd2",
+        "id": "600fb9cc889ce3579c099fec",
+        "name": "Prosciutto e funghi",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611660839/1611660836476.jpg",
+        "price": 20,
+        "qty": 1,
+        "review": {
+          "rating": 2,
+          "comment": "ipsum non eros congue rhoncus. Quisque eget neque interdum nisi condimentum consectetur"
+        }
+      },
+      {
+        "_id": "600fe5591d853336ccbecfd3",
+        "id": "600fccba3de06709884d6fab",
+        "name": "Cookies and Cream",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648186/1611648183961.jpg",
+        "price": 15,
+        "qty": 1,
+        "review": {
+          "rating": 3,
+          "comment": "ipsum non eros congue rhoncus. Quisque eget neque interdum nisi condimentum consectetur"
+        }
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Omaha",
+      "state": "Nebraska",
+      "postalCode": "68154",
+      "country": "United States",
+      "address": "5464 Rozeveld Ct Hudsonville, Michigan(MI)"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 4026184613,
+    "createdAt": "2021-01-26T09:48:09.082Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T10:13:26.223Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-26T10:19:34.053Z"
+  },
+  {
+    "_id": "600ff9b493664b265041164b",
+    "deliveryCost": 20,
+    "totalCost": 47,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5381d853336ccbecfbd",
+    "items": [
+      {
+        "_id": "600ff9b493664b265041164c",
+        "id": "600fb229506ffd1c6c93dca8",
+        "name": "dark burger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641384/1611641383237.jpg",
+        "price": 15,
+        "qty": 1,
+        "review": {
+          "rating": 4,
+          "comment": "Vestibulum turpis ligula, venenatis in diam eu, finibus ullamcorper enim. Quisque tincidunt erat a"
+        }
+      },
+      {
+        "_id": "600ff9b493664b265041164d",
+        "id": "600fb248506ffd1c6c93dca9",
+        "name": "red burger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641416/1611641414767.png",
+        "price": 12,
+        "qty": 1,
+        "review": {
+          "rating": 3,
+          "comment": "Vestibulum turpis ligula, venenatis in diam eu, finibus ullamcorper enim. Quisque tincidunt erat a"
+        }
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Charleston",
+      "state": "South Carolina",
+      "postalCode": "29405",
+      "country": "United States",
+      "address": "4876 Gallegos Vista Apt. 382 Lake Christine, VA 92929"
+    },
+    "paymentMethod": "stripe",
+    "mobileNo": 8437547643,
+    "createdAt": "2021-01-26T11:15:00.267Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T11:15:31.427Z",
+    "transactionId": "ch_1IDpWAC1nShCdeevolLCMnWq",
+    "deliveredAt": "2021-01-26T11:17:00.009Z"
+  },
+  {
+    "_id": "600ffb9c93664b265041164e",
+    "deliveryCost": 20,
+    "totalCost": 115,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5991d853336ccbecfbe",
+    "items": [
+      {
+        "_id": "600ffb9c93664b265041164f",
+        "id": "600fcd223de06709884d6faf",
+        "name": "Mint Chocolate Chip",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648289/1611648287779.jpg",
+        "price": 35,
+        "qty": 1
+      },
+      {
+        "_id": "600ffb9c93664b2650411650",
+        "id": "600fcd383de06709884d6fb0",
+        "name": "Vanilla Bean",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648311/1611648309503.jpg",
+        "price": 30,
+        "qty": 1
+      },
+      {
+        "_id": "600ffb9c93664b2650411651",
+        "id": "600fb62d1cbf7b3a643382a7",
+        "name": "Double Patty Cheeseburger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642413/1611642411023.jpg",
+        "price": 30,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Birmingham",
+      "state": "Alabama",
+      "postalCode": "35222",
+      "country": "united  kingdom",
+      "address": "097 Cook Row Suite 139"
+    },
+    "paymentMethod": "paypal",
+    "mobileNo": 7074183491,
+    "createdAt": "2021-01-26T11:23:08.872Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T11:25:06.039Z",
+    "transactionId": "97X64519N80820010",
+    "deliveredAt": "2021-01-26T11:25:35.284Z"
+  },
+  {
+    "_id": "600ffc9893664b2650411652",
+    "deliveryCost": 20,
+    "totalCost": 40,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5991d853336ccbecfbe",
+    "items": [
+      {
+        "_id": "600ffc9893664b2650411653",
+        "id": "600fb856889ce3579c099fe4",
+        "name": "Ham Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642966/1611642964169.jpg",
+        "price": 20,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Birmingham",
+      "state": "Alabama",
+      "postalCode": "35222",
+      "country": "United Kingdom",
+      "address": "097 Cook Row Suite 139"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 7074183491,
+    "createdAt": "2021-01-26T11:27:20.193Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T11:27:29.917Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-26T11:28:04.362Z"
+  },
+  {
+    "_id": "600ffe8a3bc12b4850e936d3",
+    "deliveryCost": 0,
+    "totalCost": 355,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5f21d853336ccbecfc0",
+    "items": [
+      {
+        "_id": "600ffe8a3bc12b4850e936d4",
+        "id": "600fb918889ce3579c099fe9",
+        "name": "Vegetable Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643159/1611643158166.jpg",
+        "price": 30,
+        "qty": 1
+      },
+      {
+        "_id": "600ffe8a3bc12b4850e936d5",
+        "id": "600fb6731cbf7b3a643382a8",
+        "name": "Steamed Cheeseburger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642483/1611642481411.jpg",
+        "price": 25,
+        "qty": 1
+      },
+      {
+        "_id": "600ffe8a3bc12b4850e936d6",
+        "id": "600fcb693de06709884d6fa6",
+        "name": "Dressed herring salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647849/1611647845514.jpg",
+        "price": 95,
+        "qty": 1
+      },
+      {
+        "_id": "600ffe8a3bc12b4850e936d7",
+        "id": "600fcb493de06709884d6fa5",
+        "name": "Gado-gado",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647817/1611647816017.jpg",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "_id": "600ffe8a3bc12b4850e936d8",
+        "id": "600fb9ea889ce3579c099fed",
+        "name": "Neapolitan Pizza",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643369/1611643368230.jpg",
+        "price": 20,
+        "qty": 1
+      },
+      {
+        "_id": "600ffe8a3bc12b4850e936d9",
+        "id": "600fcd6a3de06709884d6fb1",
+        "name": "Chocolate Brownie",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648361/1611648359041.jpg",
+        "price": 50,
+        "qty": 1
+      },
+      {
+        "_id": "600ffe8a3bc12b4850e936da",
+        "id": "600fcde93de06709884d6fb4",
+        "name": "Whipped Cream",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648488/1611648486202.jpg",
+        "price": 55,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Ahlen",
+      "state": "Nordrhein-Westfalen",
+      "postalCode": "59229",
+      "country": "germany",
+      "address": "4719 Stewart Forest Apt. 209 Greenton"
+    },
+    "paymentMethod": "stripe",
+    "mobileNo": 2382673118,
+    "createdAt": "2021-01-26T11:35:38.509Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T11:36:04.773Z",
+    "transactionId": "ch_1IDpq3C1nShCdeeveWSTStpn",
+    "deliveredAt": "2021-01-26T11:42:02.986Z"
+  },
+  {
+    "_id": "6010010f3bc12b4850e936db",
+    "deliveryCost": 15,
+    "totalCost": 125,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd6241d853336ccbecfc1",
+    "items": [
+      {
+        "_id": "6010010f3bc12b4850e936dc",
+        "id": "600fb20e506ffd1c6c93dca7",
+        "name": "Cheese burger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641358/1611641356548.jpg",
+        "price": 10,
+        "qty": 1
+      },
+      {
+        "_id": "6010010f3bc12b4850e936dd",
+        "id": "600fb25b506ffd1c6c93dcaa",
+        "name": "veg burger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641435/1611641433433.png",
+        "price": 18,
+        "qty": 1
+      },
+      {
+        "_id": "6010010f3bc12b4850e936de",
+        "id": "600fb7e0889ce3579c099fe0",
+        "name": "Normal Chicken Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642847/1611642845205.jpg",
+        "price": 10,
+        "qty": 1
+      },
+      {
+        "_id": "6010010f3bc12b4850e936df",
+        "id": "600fb825889ce3579c099fe2",
+        "name": "Grilled Cheese Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642917/1611642915785.jpg",
+        "price": 15,
+        "qty": 1
+      },
+      {
+        "_id": "6010010f3bc12b4850e936e0",
+        "id": "600fb809889ce3579c099fe1",
+        "name": "Fried Egg Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642888/1611642887104.jpg",
+        "price": 12,
+        "qty": 1
+      },
+      {
+        "_id": "6010010f3bc12b4850e936e1",
+        "id": "600fb856889ce3579c099fe4",
+        "name": "Ham Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642966/1611642964169.jpg",
+        "price": 20,
+        "qty": 1
+      },
+      {
+        "_id": "6010010f3bc12b4850e936e2",
+        "id": "600fb882889ce3579c099fe5",
+        "name": "Meat Ball Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643010/1611643008683.jpg",
+        "price": 25,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Montreal",
+      "state": "Quebec",
+      "postalCode": "H9R 3J4",
+      "country": "canada",
+      "address": "2753  Saint-Denis Street"
+    },
+    "paymentMethod": "paypal",
+    "mobileNo": 5144291094,
+    "createdAt": "2021-01-26T11:46:23.066Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T11:47:23.729Z",
+    "transactionId": "4TA16148ME478492Y",
+    "deliveredAt": "2021-01-26T12:11:42.159Z"
+  },
+  {
+    "_id": "601001a43bc12b4850e936e3",
+    "deliveryCost": 15,
+    "totalCost": 145,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd6411d853336ccbecfc2",
+    "items": [
+      {
+        "_id": "601001a43bc12b4850e936e4",
+        "id": "600fcaba3de06709884d6fa2",
+        "name": "Israeli salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647673/1611647671124.jpg",
+        "price": 30,
+        "qty": 1,
+        "review": {
+          "rating": 5,
+          "comment": "Vestibulum turpis ligula, venenatis in diam eu, finibus ullamcorper enim. Quisque tincidunt erat a."
+        }
+      },
+      {
+        "_id": "601001a43bc12b4850e936e5",
+        "id": "600fcb493de06709884d6fa5",
+        "name": "Gado-gado",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647817/1611647816017.jpg",
+        "price": 80,
+        "qty": 1,
+        "review": {
+          "rating": 3,
+          "comment": "Vestibulum turpis ligula, venenatis in diam eu, finibus ullamcorper enim. Quisque tincidunt erat a."
+        }
+      },
+      {
+        "_id": "601001a43bc12b4850e936e6",
+        "id": "600fcb2c3de06709884d6fa4",
+        "name": "Waldorf salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647787/1611647785487.jpg",
+        "price": 20,
+        "qty": 1,
+        "review": {
+          "rating": 4,
+          "comment": "Vestibulum turpis ligula, venenatis in diam eu, finibus ullamcorper enim. Quisque tincidunt erat a."
+        }
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Colatina",
+      "state": "Espírito Santo",
+      "postalCode": "29701580",
+      "country": "brazil",
+      "address": "Rua Dezoito 781"
+    },
+    "paymentMethod": "stripe",
+    "mobileNo": 2733573661,
+    "createdAt": "2021-01-26T11:48:52.756Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T11:49:12.935Z",
+    "transactionId": "ch_1IDq2lC1nShCdeevRXFS2CWN",
+    "deliveredAt": "2021-01-26T12:11:54.806Z"
+  },
+  {
+    "_id": "601002213bc12b4850e936e7",
+    "deliveryCost": 20,
+    "totalCost": 45,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd68d1d853336ccbecfc3",
+    "items": [
+      {
+        "_id": "601002213bc12b4850e936e8",
+        "id": "600fb2a0506ffd1c6c93dcab",
+        "name": "Double Animal",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641503/1611641501709.jpg",
+        "price": 25,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Tripoli",
+      "state": "Tripoli",
+      "postalCode": "457815",
+      "country": "Libya",
+      "address": "Hai AL-Andalus , P.O.Box: 3162"
+    },
+    "paymentMethod": "paypal",
+    "mobileNo": 4779249475,
+    "createdAt": "2021-01-26T11:50:57.740Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T11:51:27.710Z",
+    "transactionId": "2SH36120RG952854E",
+    "deliveredAt": "2021-01-26T12:12:04.449Z"
+  },
+  {
+    "_id": "601002ab3bc12b4850e936e9",
+    "deliveryCost": 0,
+    "totalCost": 205,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd6a81d853336ccbecfc4",
+    "items": [
+      {
+        "_id": "601002ab3bc12b4850e936ea",
+        "id": "600fcb933de06709884d6fa8",
+        "name": "Tabbouleh",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647890/1611647888287.jpg",
+        "price": 25,
+        "qty": 1
+      },
+      {
+        "_id": "601002ab3bc12b4850e936eb",
+        "id": "600fcb803de06709884d6fa7",
+        "name": "Nicoise salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647871/1611647867998.jpg",
+        "price": 30,
+        "qty": 1
+      },
+      {
+        "_id": "601002ab3bc12b4850e936ec",
+        "id": "600fcbaf3de06709884d6fa9",
+        "name": "Fiambre",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647919/1611647917687.jpg",
+        "price": 50,
+        "qty": 1
+      },
+      {
+        "_id": "601002ab3bc12b4850e936ed",
+        "id": "600fcbde3de06709884d6faa",
+        "name": "chopped salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647965/1611647964005.jpg",
+        "price": 100,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "San Fele",
+      "state": "Potenza",
+      "postalCode": "San Fele",
+      "country": "italy",
+      "address": "Discesa Gaiola 105"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 3843410876,
+    "createdAt": "2021-01-26T11:53:15.443Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T11:53:21.773Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-26T12:12:15.685Z"
+  },
+  {
+    "_id": "6010030c3bc12b4850e936ee",
+    "deliveryCost": 20,
+    "totalCost": 55,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd6e81d853336ccbecfc5",
+    "items": [
+      {
+        "_id": "6010030c3bc12b4850e936ef",
+        "id": "600fcd223de06709884d6faf",
+        "name": "Mint Chocolate Chip",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648289/1611648287779.jpg",
+        "price": 35,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "KRISTIANSUND N",
+      "state": "KRISTIANSUND",
+      "postalCode": "6508",
+      "country": "norway",
+      "address": "Hans Neeraas gate 193"
+    },
+    "paymentMethod": "paypal",
+    "mobileNo": 9127645929,
+    "createdAt": "2021-01-26T11:54:52.699Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T12:00:54.259Z",
+    "transactionId": "2RT82983KK929492C",
+    "deliveredAt": "2021-01-26T12:12:27.784Z"
+  },
+  {
+    "_id": "601004db3bc12b4850e936f0",
+    "deliveryCost": 20,
+    "totalCost": 45,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fdaa31d853336ccbecfc6",
+    "items": [
+      {
+        "_id": "601004db3bc12b4850e936f1",
+        "id": "600fb6731cbf7b3a643382a8",
+        "name": "Steamed Cheeseburger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642483/1611642481411.jpg",
+        "price": 25,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Outrup",
+      "state": "Region Syddanmark",
+      "postalCode": "6855",
+      "country": "denmark",
+      "address": "Ladbyvej 27"
+    },
+    "paymentMethod": "stripe",
+    "mobileNo": 5328661175,
+    "createdAt": "2021-01-26T12:02:35.770Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T12:02:52.592Z",
+    "transactionId": "ch_1IDqFzC1nShCdeev3EsGVmTw",
+    "deliveredAt": "2021-01-26T12:13:34.742Z"
+  },
+  {
+    "_id": "601005423bc12b4850e936f2",
+    "deliveryCost": 20,
+    "totalCost": 108,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fdadb1d853336ccbecfc7",
+    "items": [
+      {
+        "_id": "601005423bc12b4850e936f3",
+        "id": "600fcb2c3de06709884d6fa4",
+        "name": "Waldorf salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647787/1611647785487.jpg",
+        "price": 20,
+        "qty": 1
+      },
+      {
+        "_id": "601005423bc12b4850e936f4",
+        "id": "600fcbaf3de06709884d6fa9",
+        "name": "Fiambre",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647919/1611647917687.jpg",
+        "price": 50,
+        "qty": 1
+      },
+      {
+        "_id": "601005423bc12b4850e936f5",
+        "id": "600fcaf33de06709884d6fa3",
+        "name": "Mexican black bean salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647731/1611647728731.jpg",
+        "price": 18,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Ballinasloe",
+      "state": "County Galway",
+      "postalCode": "45715",
+      "country": "Ireland",
+      "address": "Castleblakeney Ballinasloe"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 5909678132,
+    "createdAt": "2021-01-26T12:04:18.136Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T12:04:22.073Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-26T12:13:44.673Z"
+  },
+  {
+    "_id": "601005a53bc12b4850e936f6",
+    "deliveryCost": 0,
+    "totalCost": 209,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fdb431d853336ccbecfc8",
+    "items": [
+      {
+        "_id": "601005a53bc12b4850e936f7",
+        "id": "600fb89d889ce3579c099fe6",
+        "name": "Olives Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643037/1611643035863.jpg",
+        "price": 16,
+        "qty": 1
+      },
+      {
+        "_id": "601005a53bc12b4850e936f8",
+        "id": "600fb83c889ce3579c099fe3",
+        "name": "Roast Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642939/1611642938092.jpg",
+        "price": 18,
+        "qty": 1
+      },
+      {
+        "_id": "601005a53bc12b4850e936f9",
+        "id": "600fcb493de06709884d6fa5",
+        "name": "Gado-gado",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647817/1611647816017.jpg",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "_id": "601005a53bc12b4850e936fa",
+        "id": "600fcb693de06709884d6fa6",
+        "name": "Dressed herring salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647849/1611647845514.jpg",
+        "price": 95,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Luque",
+      "state": "Luque",
+      "postalCode": "4521875",
+      "country": "Paraguay",
+      "address": "Ruta de las Residentas esq. Quebec"
+    },
+    "paymentMethod": "paypal",
+    "mobileNo": 8921642191,
+    "createdAt": "2021-01-26T12:05:57.659Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T12:06:42.707Z",
+    "transactionId": "77P96303S6597161M",
+    "deliveredAt": "2021-01-26T12:13:52.826Z"
+  },
+  {
+    "_id": "601006293bc12b4850e936fb",
+    "deliveryCost": 15,
+    "totalCost": 127,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fdd621d853336ccbecfc9",
+    "items": [
+      {
+        "_id": "601006293bc12b4850e936fc",
+        "id": "600fba20889ce3579c099fef",
+        "name": "Greek Pizza",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643424/1611643422718.jpg",
+        "price": 30,
+        "qty": 1
+      },
+      {
+        "_id": "601006293bc12b4850e936fd",
+        "id": "600fba5c889ce3579c099ff1",
+        "name": "Vegetariana",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643484/1611643481549.jpg",
+        "price": 30,
+        "qty": 1
+      },
+      {
+        "_id": "601006293bc12b4850e936fe",
+        "id": "600fba40889ce3579c099ff0",
+        "name": "Quattro Stagioni",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643456/1611643454252.jpg",
+        "price": 22,
+        "qty": 1
+      },
+      {
+        "_id": "601006293bc12b4850e936ff",
+        "id": "600fbb22889ce3579c099ff3",
+        "name": "VEGGIE PARADISE",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643682/1611643680124.jpg",
+        "price": 30,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Grenchen",
+      "state": "Grenchen",
+      "postalCode": "2540",
+      "country": "Switzerland",
+      "address": "Stradun 127"
+    },
+    "paymentMethod": "stripe",
+    "mobileNo": 3245871264,
+    "createdAt": "2021-01-26T12:08:09.936Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T12:08:34.661Z",
+    "transactionId": "ch_1IDqLVC1nShCdeevhXRjFWse",
+    "deliveredAt": "2021-01-26T12:13:59.036Z"
+  },
+  {
+    "_id": "601006a23bc12b4850e93700",
+    "deliveryCost": 20,
+    "totalCost": 100,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fddf71d853336ccbecfca",
+    "items": [
+      {
+        "_id": "601006a23bc12b4850e93701",
+        "id": "600fba0a889ce3579c099fee",
+        "name": "Sicilian Pizza",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643401/1611643399218.jpg",
+        "price": 25,
+        "qty": 1,
+        "review": {
+          "rating": 4,
+          "comment": "Vestibulum turpis ligula, venenatis in diam eu, finibus ullamcorper enim. Quisque tincidunt erat a"
+        }
+      },
+      {
+        "_id": "601006a23bc12b4850e93702",
+        "id": "600fcde93de06709884d6fb4",
+        "name": "Whipped Cream",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648488/1611648486202.jpg",
+        "price": 55,
+        "qty": 1,
+        "review": {
+          "rating": 2,
+          "comment": "Vestibulum turpis ligula, venenatis in diam eu, finibus ullamcorper enim. Quisque tincidunt erat a"
+        }
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Jevícko",
+      "state": "Pardubický kraj",
+      "postalCode": "56943",
+      "country": "Czech Republic",
+      "address": "Tylova 1698"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 7316759130,
+    "createdAt": "2021-01-26T12:10:10.813Z",
+    "__v": 0,
+    "paidAt": "2021-01-26T12:10:14.798Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-26T12:14:07.339Z"
+  },
+  {
+    "_id": "6010f2cae58a752960060607",
+    "deliveryCost": 20,
+    "totalCost": 62,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd6e81d853336ccbecfc5",
+    "items": [
+      {
+        "_id": "6010f2cae58a752960060608",
+        "id": "600fb229506ffd1c6c93dca8",
+        "name": "dark burger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641384/1611641383237.jpg",
+        "price": 15,
+        "qty": 2,
+        "review": {
+          "rating": 5,
+          "comment": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to the"
+        }
+      },
+      {
+        "_id": "6010f2cae58a752960060609",
+        "id": "600fb248506ffd1c6c93dca9",
+        "name": "red burger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641416/1611641414767.png",
+        "price": 12,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "KRISTIANSUND N",
+      "state": "KRISTIANSUND",
+      "postalCode": "6508",
+      "country": "norway",
+      "address": "Hans Neeraas gate 193"
+    },
+    "paymentMethod": "paypal",
+    "mobileNo": 9127645929,
+    "createdAt": "2021-01-27T04:57:46.653Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T05:01:10.196Z",
+    "transactionId": "2XG11558UN280525H",
+    "deliveredAt": "2021-01-27T05:01:54.173Z"
+  },
+  {
+    "_id": "60114b225a90c35a982a17eb",
+    "deliveryCost": 20,
+    "totalCost": 35,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5991d853336ccbecfbe",
+    "items": [
+      {
+        "_id": "60114b225a90c35a982a17ec",
+        "id": "600fb229506ffd1c6c93dca8",
+        "name": "dark burger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641384/1611641383237.jpg",
+        "price": 15,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Birmingham",
+      "state": "Alabama",
+      "postalCode": "35222",
+      "country": "United Kingdom",
+      "address": "097 Cook Row Suite 139"
+    },
+    "paymentMethod": "stripe",
+    "mobileNo": 7074183491,
+    "createdAt": "2021-01-27T11:14:42.488Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T11:15:04.925Z",
+    "transactionId": "ch_1IEBzHC1nShCdeevss0mPHZK",
+    "deliveredAt": "2021-01-27T11:21:24.587Z"
+  },
+  {
+    "_id": "60114c525a90c35a982a17ed",
+    "deliveryCost": 20,
+    "totalCost": 45,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5991d853336ccbecfbe",
+    "items": [
+      {
+        "_id": "60114c525a90c35a982a17ee",
+        "id": "600fb6731cbf7b3a643382a8",
+        "name": "Steamed Cheeseburger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642483/1611642481411.jpg",
+        "price": 25,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Birmingham",
+      "state": "Alabama",
+      "postalCode": "35222",
+      "country": "United Kingdom",
+      "address": "097 Cook Row Suite 139"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 7074183491,
+    "createdAt": "2021-01-27T11:19:46.952Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T11:20:00.475Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T11:21:31.620Z"
+  },
+  {
+    "_id": "60114c9a5a90c35a982a17ef",
+    "deliveryCost": 20,
+    "totalCost": 45,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5991d853336ccbecfbe",
+    "items": [
+      {
+        "_id": "60114c9a5a90c35a982a17f0",
+        "id": "600fb2a0506ffd1c6c93dcab",
+        "name": "Double Animal",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641503/1611641501709.jpg",
+        "price": 25,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Birmingham",
+      "state": "Alabama",
+      "postalCode": "35222",
+      "country": "United Kingdom",
+      "address": "097 Cook Row Suite 139"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 7074183491,
+    "createdAt": "2021-01-27T11:20:58.324Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T11:21:02.147Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T11:21:37.798Z"
+  },
+  {
+    "_id": "60114eeb5a90c35a982a17f1",
+    "deliveryCost": 20,
+    "totalCost": 50,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5991d853336ccbecfbe",
+    "items": [
+      {
+        "_id": "60114eeb5a90c35a982a17f2",
+        "id": "600fba20889ce3579c099fef",
+        "name": "Greek Pizza",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643424/1611643422718.jpg",
+        "price": 30,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Birmingham",
+      "state": "Alabama",
+      "postalCode": "35222",
+      "country": "United Kingdom",
+      "address": "097 Cook Row Suite 139"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 7074183491,
+    "createdAt": "2021-01-27T11:30:51.656Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T11:30:56.360Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T11:34:49.733Z"
+  },
+  {
+    "_id": "60114f385a90c35a982a17f3",
+    "deliveryCost": 15,
+    "totalCost": 120,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5ce1d853336ccbecfbf",
+    "items": [
+      {
+        "_id": "60114f385a90c35a982a17f4",
+        "id": "600fcd0a3de06709884d6fae",
+        "name": "French Vanilla",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648265/1611648264233.jpg",
+        "price": 40,
+        "qty": 1
+      },
+      {
+        "_id": "60114f385a90c35a982a17f5",
+        "id": "600fcd6a3de06709884d6fb1",
+        "name": "Chocolate Brownie",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648361/1611648359041.jpg",
+        "price": 50,
+        "qty": 1
+      },
+      {
+        "_id": "60114f385a90c35a982a17f6",
+        "id": "600fcd813de06709884d6fb2",
+        "name": "Homemade Vanilla",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648384/1611648383274.jpg",
+        "price": 15,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Colatina",
+      "state": "Espírito Santo",
+      "postalCode": "29701580",
+      "country": "Brazil",
+      "address": "Rua Dezoito 781"
+    },
+    "paymentMethod": "stripe",
+    "mobileNo": 2733573661,
+    "createdAt": "2021-01-27T11:32:08.313Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T11:32:30.277Z",
+    "transactionId": "ch_1IECG9C1nShCdeevt8xnbHw1",
+    "deliveredAt": "2021-01-27T11:34:59.212Z"
+  },
+  {
+    "_id": "601155f55a90c35a982a17fc",
+    "deliveryCost": 20,
+    "totalCost": 60,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5ce1d853336ccbecfbf",
+    "items": [
+      {
+        "_id": "601155f55a90c35a982a17fd",
+        "id": "600fb9cc889ce3579c099fec",
+        "name": "Prosciutto e funghi",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611660839/1611660836476.jpg",
+        "price": 20,
+        "qty": 1
+      },
+      {
+        "_id": "601155f55a90c35a982a17fe",
+        "id": "600fb9ea889ce3579c099fed",
+        "name": "Neapolitan Pizza",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643369/1611643368230.jpg",
+        "price": 20,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Colatina",
+      "state": "Espírito Santo",
+      "postalCode": "29701580",
+      "country": "Brazil",
+      "address": "Rua Dezoito 781"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 2733573661,
+    "createdAt": "2021-01-27T12:00:53.107Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T12:00:57.666Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T12:01:10.176Z"
+  },
+  {
+    "_id": "60117bba5a90c35a982a17ff",
+    "deliveryCost": 0,
+    "totalCost": 360,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5ce1d853336ccbecfbf",
+    "items": [
+      {
+        "_id": "60117bba5a90c35a982a1800",
+        "id": "600fcaf33de06709884d6fa3",
+        "name": "Mexican black bean salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647731/1611647728731.jpg",
+        "price": 18,
+        "qty": 20
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Charleston",
+      "state": "South Carolina",
+      "postalCode": "29405",
+      "country": "United States",
+      "address": "4876 Gallegos Vista Apt. 382 Lake Christine, VA 92929"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 8437547643,
+    "createdAt": "2021-01-27T14:42:02.860Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T14:42:11.498Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T14:43:08.805Z"
+  },
+  {
+    "_id": "601182c45a90c35a982a1801",
+    "deliveryCost": 15,
+    "totalCost": 145,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5ce1d853336ccbecfbf",
+    "items": [
+      {
+        "_id": "601182c45a90c35a982a1802",
+        "id": "600fcaba3de06709884d6fa2",
+        "name": "Israeli salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647673/1611647671124.jpg",
+        "price": 30,
+        "qty": 1
+      },
+      {
+        "_id": "601182c45a90c35a982a1803",
+        "id": "600fcb493de06709884d6fa5",
+        "name": "Gado-gado",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647817/1611647816017.jpg",
+        "price": 80,
+        "qty": 1
+      },
+      {
+        "_id": "601182c45a90c35a982a1804",
+        "id": "600fb856889ce3579c099fe4",
+        "name": "Ham Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642966/1611642964169.jpg",
+        "price": 20,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Birmingham",
+      "state": "Alabama",
+      "postalCode": "35222",
+      "country": "United Kingdom",
+      "address": "097 Cook Row Suite 139"
+    },
+    "paymentMethod": "stripe",
+    "mobileNo": 7074183491,
+    "createdAt": "2021-01-27T15:12:04.232Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T15:12:20.297Z",
+    "transactionId": "ch_1IEFgtC1nShCdeevWkLEFWFN",
+    "deliveredAt": "2021-01-27T15:12:39.404Z"
+  },
+  {
+    "_id": "601184d35a90c35a982a1807",
+    "deliveryCost": 20,
+    "totalCost": 50,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fddf71d853336ccbecfca",
+    "items": [
+      {
+        "_id": "601184d35a90c35a982a1808",
+        "id": "600fbb22889ce3579c099ff3",
+        "name": "VEGGIE PARADISE",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611643682/1611643680124.jpg",
+        "price": 30,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Montreal",
+      "state": "Quebec",
+      "postalCode": "H9R 3J4",
+      "country": "Canada",
+      "address": "2753  Saint-Denis Street"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 5144291094,
+    "createdAt": "2021-01-27T15:20:51.304Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T15:20:54.446Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T15:23:08.907Z"
+  },
+  {
+    "_id": "601185385a90c35a982a1809",
+    "deliveryCost": 20,
+    "totalCost": 40,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fddf71d853336ccbecfca",
+    "items": [
+      {
+        "_id": "601185385a90c35a982a180a",
+        "id": "600fcb2c3de06709884d6fa4",
+        "name": "Waldorf salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647787/1611647785487.jpg",
+        "price": 20,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Birmingham",
+      "state": "Alabama",
+      "postalCode": "35222",
+      "country": "United Kingdom",
+      "address": "097 Cook Row Suite 139"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 7074183491,
+    "createdAt": "2021-01-27T15:22:32.931Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T15:22:51.223Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T15:23:13.199Z"
+  },
+  {
+    "_id": "6011857c5a90c35a982a180b",
+    "deliveryCost": 20,
+    "totalCost": 50,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fdadb1d853336ccbecfc7",
+    "items": [
+      {
+        "_id": "6011857c5a90c35a982a180c",
+        "id": "600fccd43de06709884d6fac",
+        "name": "Vanilla",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648212/1611648209743.jpg",
+        "price": 30,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Omaha",
+      "state": "Nebraska",
+      "postalCode": "68154",
+      "country": "United States",
+      "address": "5464 Rozeveld Ct Hudsonville, Michigan(MI)"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 4026184613,
+    "createdAt": "2021-01-27T15:23:40.740Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T15:24:08.373Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T15:31:57.466Z"
+  },
+  {
+    "_id": "601185c95a90c35a982a180d",
+    "deliveryCost": 20,
+    "totalCost": 50,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fdadb1d853336ccbecfc7",
+    "items": [
+      {
+        "_id": "601185c95a90c35a982a180e",
+        "id": "600fcb803de06709884d6fa7",
+        "name": "Nicoise salad",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647871/1611647867998.jpg",
+        "price": 30,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Montreal",
+      "state": "Quebec",
+      "postalCode": "H9R 3J4",
+      "country": "Canada",
+      "address": "2753  Saint-Denis Street"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 5144291094,
+    "createdAt": "2021-01-27T15:24:57.567Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T15:25:01.215Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T15:32:06.218Z"
+  },
+  {
+    "_id": "601186045a90c35a982a180f",
+    "deliveryCost": 20,
+    "totalCost": 36,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fdadb1d853336ccbecfc7",
+    "items": [
+      {
+        "_id": "601186045a90c35a982a1810",
+        "id": "600fb2d8506ffd1c6c93dcad",
+        "name": "Chargrilled Burger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641559/1611641557505.png",
+        "price": 16,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Colatina",
+      "state": "Espírito Santo",
+      "postalCode": "29701580",
+      "country": "Brazil",
+      "address": "Rua Dezoito 781"
+    },
+    "paymentMethod": "stripe",
+    "mobileNo": 2733573661,
+    "createdAt": "2021-01-27T15:25:56.691Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T15:26:13.747Z",
+    "transactionId": "ch_1IEFuKC1nShCdeevgg3dVVVd",
+    "deliveredAt": "2021-01-27T15:32:01.866Z"
+  },
+  {
+    "_id": "6011863d5a90c35a982a1811",
+    "deliveryCost": 20,
+    "totalCost": 32,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fdadb1d853336ccbecfc7",
+    "items": [
+      {
+        "_id": "6011863d5a90c35a982a1812",
+        "id": "600fb809889ce3579c099fe1",
+        "name": "Fried Egg Sandwich",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642888/1611642887104.jpg",
+        "price": 12,
+        "qty": 1
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Ballinasloe",
+      "state": "County Galway",
+      "postalCode": "45715",
+      "country": "Ireland",
+      "address": "Castleblakeney Ballinasloe"
+    },
+    "paymentMethod": "paypal",
+    "mobileNo": 5909678132,
+    "createdAt": "2021-01-27T15:26:53.086Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T15:27:28.027Z",
+    "transactionId": "7R178981LA827961F",
+    "deliveredAt": "2021-01-27T15:32:10.784Z"
+  },
+  {
+    "_id": "601186d15a90c35a982a1813",
+    "deliveryCost": 20,
+    "totalCost": 45,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5381d853336ccbecfbd",
+    "items": [
+      {
+        "_id": "601186d15a90c35a982a1814",
+        "id": "600fb6731cbf7b3a643382a8",
+        "name": "Steamed Cheeseburger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611642483/1611642481411.jpg",
+        "price": 25,
+        "qty": 1,
+        "review": {
+          "rating": 1,
+          "comment": "Vestibulum turpis ligula, venenatis in diam eu, finibus ullamcorper enim. Quisque tincidunt erat a"
+        }
+      }
+    ],
+    "deliveryDetail": {
+      "city": "San Fele",
+      "state": "Potenza",
+      "postalCode": "San Fele",
+      "country": "Italy",
+      "address": "Discesa Gaiola 105"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 3843410876,
+    "createdAt": "2021-01-27T15:29:21.402Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T15:30:13.537Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T15:32:15.524Z"
+  },
+  {
+    "_id": "601187215a90c35a982a1815",
+    "deliveryCost": 20,
+    "totalCost": 35,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd5381d853336ccbecfbd",
+    "items": [
+      {
+        "_id": "601187215a90c35a982a1816",
+        "id": "600fcd813de06709884d6fb2",
+        "name": "Homemade Vanilla",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611648384/1611648383274.jpg",
+        "price": 15,
+        "qty": 1,
+        "review": {
+          "rating": 5,
+          "comment": "Vestibulum turpis ligula, venenatis in diam eu, finibus ullamcorper enim. Quisque tincidunt erat a"
+        }
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Birmingham",
+      "state": "Alabama",
+      "postalCode": "35222",
+      "country": "United Kingdom",
+      "address": "097 Cook Row Suite 139"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 7074183491,
+    "createdAt": "2021-01-27T15:30:41.105Z",
+    "__v": 0,
+    "paidAt": "2021-01-27T15:31:39.401Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-27T15:32:20.894Z"
+  },
+  {
+    "_id": "601428cda02619372c66909a",
+    "deliveryCost": 20,
+    "totalCost": 45,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd6e81d853336ccbecfc5",
+    "items": [
+      {
+        "_id": "601428cda02619372c66909b",
+        "id": "600fcb933de06709884d6fa8",
+        "name": "Tabbouleh",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611647890/1611647888287.jpg",
+        "price": 25,
+        "qty": 1,
+        "review": {
+          "rating": 5,
+          "comment": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to the"
+        }
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Charleston",
+      "state": "South Carolina",
+      "postalCode": "29405",
+      "country": "United States",
+      "address": "4876 Gallegos Vista Apt. 382 Lake Christine, VA 92929"
+    },
+    "paymentMethod": "stripe",
+    "mobileNo": 1843754764,
+    "createdAt": "2021-01-29T15:25:01.144Z",
+    "__v": 0,
+    "paidAt": "2021-01-29T15:25:26.739Z",
+    "transactionId": "ch_1IEyqfC1nShCdeevTzFrDEg8",
+    "deliveredAt": "2021-01-29T15:26:23.102Z"
+  },
+  {
+    "_id": "6014295ba02619372c66909d",
+    "deliveryCost": 20,
+    "totalCost": 35,
+    "isDelivered": true,
+    "isPaid": true,
+    "user": "600fd6e81d853336ccbecfc5",
+    "items": [
+      {
+        "_id": "6014295ba02619372c66909e",
+        "id": "600fb229506ffd1c6c93dca8",
+        "name": "dark burger",
+        "image": "https://res.cloudinary.com/diwfmgcww/image/upload/v1611641384/1611641383237.jpg",
+        "price": 15,
+        "qty": 1,
+        "review": {
+          "rating": 5,
+          "comment": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to the"
+        }
+      }
+    ],
+    "deliveryDetail": {
+      "city": "Ballinasloe",
+      "state": "County Galway",
+      "postalCode": "45715",
+      "country": "Ireland",
+      "address": "Castleblakeney Ballinasloe"
+    },
+    "paymentMethod": "cod",
+    "mobileNo": 5909678132,
+    "createdAt": "2021-01-29T15:27:23.952Z",
+    "__v": 0,
+    "paidAt": "2021-01-29T15:27:28.467Z",
+    "transactionId": "Paid -- COD",
+    "deliveredAt": "2021-01-29T15:27:38.493Z"
+  }
+]

@@ -1,0 +1,95 @@
+.order-item2 {
+  width: 100%;
+  padding: 3rem 4rem;
+  border-radius: 1.5rem;
+  background-image: url('../../assets/imgae/card-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 570px) {
+    flex-direction: column;
+    width: max-content;
+    & > *:not(:last-child) {
+      width: 30rem;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+  }
+  &__photo {
+    width: 20rem;
+    height: 15rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 15rem;
+    }
+  }
+  &__text {
+    width: 30%;
+    color: var(--black);
+  }
+  &__title {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  &__description {
+    height: 3.4rem;
+    overflow: hidden;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+  }
+  &__price {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+    color: var(--black);
+    text-shadow: var(--shadow-1);
+    & > small {
+      color: var(--yellow);
+    }
+    span {
+      color: var(--green);
+    }
+  }
+}
+
+.order-action {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: var(--black);
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  &__btn {
+    width: 8.6rem;
+    height: 4.2rem;
+    padding: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    border: none;
+    color: var(--red);
+    background-color: rgba(255, 255, 255, 0.63) !important;
+    margin-top: 2rem;
+  }
+}

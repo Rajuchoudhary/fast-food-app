@@ -1,0 +1,52 @@
+.admin-order-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  &__header {
+    border-radius: 1.5rem;
+    width: 100%;
+    padding: 2.4rem 5.4rem;
+    background-color: var(--white);
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      & > *:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+
+    & h5 {
+      font-size: 2.6rem;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+  }
+  &__form {
+    & div {
+      background-color: var(--grey) !important;
+    }
+  }
+  &__content {
+    height: 100%;
+    border-radius: 1.5rem;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 0;
+  }
+  &__table {
+    width: 100%;
+    max-width: 100rem;
+    overflow-x: auto;
+  }
+  &__pagination {
+    margin-top: 3rem;
+  }
+}

@@ -1,0 +1,51 @@
+.card-action {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: var(--black);
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  &__btn {
+    width: 8.6rem;
+    height: 4.2rem;
+    padding: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow-1);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__add-to-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.63) !important;
+    &--spinner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      animation: spinner infinite 400ms linear;
+    }
+  }
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

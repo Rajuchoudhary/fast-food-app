@@ -1,0 +1,18 @@
+:root {
+  /* colors */
+  --white: #ffffff;
+  --black: #111111;
+  --green: #56dc1e;
+  --red: #ff0000;
+  --blue: #0070f3;
+  --yellow: #f7b800;
+  --grey: #f8f8f8;
+  --grey-1: #858585;
+
+  /* Font Family */
+  --font-family: 'Josefin Sans', sans-serif;
+
+  /* Shadow */
+  --shadow-1: 0 0.3rem 0.6rem rgba(3, 0, 0, 0.16);
+  --shadow-2: 0 1.5rem 4.5rem rgba(0, 0, 0, 0.16);
+}

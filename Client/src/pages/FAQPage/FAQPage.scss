@@ -1,0 +1,66 @@
+.faq-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35rem 0;
+  &__container {
+    max-width: 113.2rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10rem 0;
+  }
+  &__heading {
+    font-size: 5.6rem;
+    line-break: 8rem;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+}
+
+.accordian {
+  width: 100%;
+  background-color: var(--grey);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  height: max-content;
+  &__header {
+    padding: 3.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--grey);
+    align-items: center;
+    z-index: 10;
+    h3 {
+      font-size: 2rem;
+      line-height: 2.4rem;
+      color: var(--black);
+    }
+    button {
+      color: var(--blue);
+      font-size: 3rem;
+      line-height: 5rem;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+  &__description {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    color: var(--grey-1);
+    border-top: 1px solid #e8e8e8;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    z-index: 5;
+    padding: 5rem;
+  }
+  &__close {
+    height: 0;
+    padding: 0 5rem;
+    border-top: 0;
+  }
+}

@@ -1,0 +1,45 @@
+.steps {
+  width: 100%;
+  max-width: 133.1rem;
+  margin: 0rem auto;
+  margin-bottom: 8rem;
+  &__container {
+    width: max-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 570px) {
+      flex-direction: column;
+      & > *:not(:last-child) {
+        text-align: right;
+        margin-bottom: 3rem;
+      }
+    }
+  }
+  &__box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -3px;
+    font-size: 1.5rem;
+  }
+  &__icon {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    line-height: 1rem;
+    & span {
+      font-size: 4rem;
+      line-height: 0;
+      color: var(--green);
+    }
+  }
+  &__bar {
+    width: 30rem;
+    height: 2px;
+    margin-left: -3px;
+    background-color: var(--grey-1);
+  }
+}

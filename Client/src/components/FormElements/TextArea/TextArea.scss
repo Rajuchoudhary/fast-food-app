@@ -1,0 +1,19 @@
+.textarea {
+  width: 100%;
+  max-width: 52rem;
+  background-color: rgba(223, 230, 240, 0.22);
+  &__text {
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+    width: 100%;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: var(--black);
+    &::placeholder {
+      color: var(--grey-1);
+      font-size: 1rem;
+      text-transform: capitalize;
+    }
+  }
+}

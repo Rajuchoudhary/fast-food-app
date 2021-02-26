@@ -1,0 +1,219 @@
+.order-detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  &__header {
+    border-radius: 1.5rem;
+    width: 100%;
+    padding: 2.4rem 5.4rem;
+    background-color: var(--white);
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      & > *:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+
+    & h5 {
+      font-size: 2.6rem;
+      font-weight: 600;
+      text-transform: capitalize;
+      & small {
+        margin-left: 2rem;
+        color: var(--blue);
+      }
+    }
+    & p {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--white);
+      text-transform: capitalize;
+      padding: 1rem 5rem;
+      border-radius: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--green);
+    }
+  }
+  &__content {
+    height: 100%;
+    border-radius: 1.5rem;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+    position: relative;
+  }
+  &__btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  &__btn {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: capitalize;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  &__table {
+    width: 100%;
+    max-width: max-content;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  &__time {
+    color: var(--green);
+  }
+  &__total {
+    & td {
+      font-size: 2rem;
+    }
+  }
+  &__detail {
+    td:nth-child(even) {
+      font-weight: 700;
+      text-align: right;
+    }
+    margin-top: 5rem;
+  }
+  &__list {
+    text-align: center;
+    & img {
+      max-width: 5rem;
+    }
+    & caption {
+      white-space: nowrap;
+      font-size: 3rem;
+      font-weight: 600;
+      text-align: left;
+    }
+  }
+  &__invoice {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white);
+    text-transform: capitalize;
+    background-color: var(--blue);
+    padding: 1.2rem 4rem;
+    border: none;
+    border-radius: 1rem;
+    align-self: flex-end;
+    margin-top: 3rem;
+    cursor: pointer;
+  }
+  &__orders {
+    width: 100%;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    & h5 {
+      font-size: 3rem;
+      line-height: 5rem;
+    }
+    &__list {
+      width: 100%;
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(auto-fit, 36rem);
+      grid-gap: 1rem;
+    }
+  }
+}
+
+.order-item {
+  width: 36rem;
+  padding: 3.8rem 4.5rem;
+  background-color: var(--grey);
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__content {
+    width: 100%;
+  }
+  & a {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+    color: var(--black);
+    text-transform: capitalize;
+  }
+  &__detail {
+    margin: 1.5rem 0 1rem 0;
+    & div {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    & p {
+      font-size: 1.4rem;
+      line-height: 2.8rem;
+      color: var(--black);
+      text-transform: capitalize;
+
+      & span {
+        color: var(--grey-1);
+        margin-left: 1rem;
+      }
+    }
+  }
+  &__rating {
+    & p {
+      font-size: 1.4rem;
+      line-height: 1.8rem;
+      color: var(--black);
+      margin-top: 1rem;
+    }
+  }
+  &__rateBtn {
+    background-color: var(--green);
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.5rem;
+    width: max-content;
+    color: var(--white);
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+  }
+  &__form {
+    margin-top: 3rem;
+    & > *:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+    & button {
+      background-color: var(--green);
+      border: none;
+      height: 3.4rem;
+      padding: 1rem 3rem;
+      border-radius: 0.5rem;
+      width: max-content;
+      color: var(--white);
+      text-transform: capitalize;
+      font-size: 1.6rem;
+      line-height: 1.5rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}
