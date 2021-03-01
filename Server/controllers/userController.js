@@ -7,9 +7,9 @@ import stripe from '../services/Stripe.js';
 
 //Config Cloudinary
 cloudinary.v2.config({
-  cloud_name: 'diwfmgcww',
-  api_key: '798971374998668',
-  api_secret: 'gvB77gESCIwH1AOgUSgA289gJfo',
+  cloud_name: 'your_cloud_name',
+  api_key: 'your_cloud_api_key',
+  api_secret: 'your_cloud_api_secret',
 });
 
 //Upload Profile Image
